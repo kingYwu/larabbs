@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2e92d28-cd5a-497d-ac22-786242c5b4fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ReplyRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ReplyRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Observers/ReplyObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Observers/ReplyObserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/_reply_box.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/_reply_box.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,28 +29,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/topics/_reply_box.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="56" column="82" selection-start-line="56" selection-start-column="82" selection-end-line="56" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RepliesController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="e#40#61#0#PHP" expanded="true" />
               </folding>
@@ -81,22 +58,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Observers/ReplyObserver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="361">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="e#33#54#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/topics/_reply_list.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="505">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+                <element signature="e#30#70#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_09_204739_create_notifications_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_09_205045_add_notification_count_to_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Notifications/TopicReplied.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+              <folding>
+                <element signature="e#37#66#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,19 +116,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/users/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/users/_replies.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -153,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Policies/UserPolicy.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_25_090830_create_categories_table.php" />
         <option value="$PROJECT_DIR$/app/Models/Category.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_25_091932_seed_categories_data.php" />
         <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
@@ -190,7 +186,6 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Models/Reply.php" />
         <option value="$PROJECT_DIR$/app/Models/Topic.php" />
-        <option value="$PROJECT_DIR$/app/Models/User.php" />
         <option value="$PROJECT_DIR$/database/factories/ReplyFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/ReplysTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
@@ -203,7 +198,10 @@
         <option value="$PROJECT_DIR$/resources/views/topics/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/ReplyRequest.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_04_09_205045_add_notification_count_to_users_table.php" />
+        <option value="$PROJECT_DIR$/app/Models/User.php" />
         <option value="$PROJECT_DIR$/app/Observers/ReplyObserver.php" />
+        <option value="$PROJECT_DIR$/app/Notifications/TopicReplied.php" />
       </list>
     </option>
   </component>
@@ -342,13 +340,36 @@
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Notifications" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Observers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,12 +421,12 @@
       <workItem from="1553320455478" duration="49382000" />
       <workItem from="1553997887538" duration="5564000" />
       <workItem from="1554079479534" duration="21682000" />
-      <workItem from="1554636789508" duration="13903000" />
+      <workItem from="1554636789508" duration="16927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124601000" />
+    <option name="totallyTimeSpent" value="127625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -436,25 +457,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243063" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/pcre/pcre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="238" column="9" lean-forward="true" selection-start-line="238" selection-start-column="9" selection-end-line="238" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -665,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/ReplyFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -737,7 +732,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/users/_replies.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#!!top" expanded="true" />
           </folding>
@@ -747,7 +742,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/users/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -768,7 +763,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RepliesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="e#40#61#0#PHP" expanded="true" />
           </folding>
@@ -782,10 +777,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_09_204739_create_notifications_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_09_205045_add_notification_count_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#30#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Observers/ReplyObserver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="361">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Notifications/TopicReplied.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="e#37#66#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
