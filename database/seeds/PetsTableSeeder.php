@@ -7,12 +7,10 @@ class PetsTableSeeder extends Seeder
 {
     public function run()
     {
-        $pets = factory(Pet::class)->times(50)->make()->each(function ($pet, $index) {
-            if ($index == 0) {
-                // $pet->field = 'value';
-            }
-        });
 
+        $pets=factory(Pet::class)
+            ->times(2)
+            ->make();
         Pet::insert($pets->toArray());
     }
 
